@@ -146,13 +146,13 @@ font-size: 20px;
         display: none !important;
   
     }
-    hr {
+    .hr {
       display: none !important;
   }
 
   }
 
-hr {
+.hr {
 
 border: solid rgb(190, 17, 17)  2px;
 width: 410px;
@@ -168,9 +168,11 @@ width: 410px;
 @media screen and (max-width:575px) {
   .menu {
       display:inherit !important;
-  }
+  
+  
+    }
 
-  hr {
+.hr {
     display:inherit !important;
 }
 
@@ -181,7 +183,10 @@ display: none;
 
 }
 
-
+.nav-item >  .nav-link:hover:after {
+  width: 0% !important;
+  background: none !important;
+}
 
 }
 
@@ -216,9 +221,42 @@ font-size: 25px;
 .nav-link:hover {
 
   color: rgb(255, 196, 0) !important;
-
-
+ 
+  transition: 1s ease-out ;
+  
+  
 }
+
+
+/* effect animated border-bottom */
+.nav-item > .nav-link   {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+  margin-right: 10px;
+}
+
+.nav-link :last-child {
+  margin-right: 0;
+}
+
+.nav-item > .nav-link:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+.nav-item >  .nav-link:hover:after {
+  width: 100%;
+  background: rgb(255, 196, 0);
+}
+
+
+
+
 
 
 
@@ -255,4 +293,17 @@ border: solid rgb(190, 17, 17);
 }
 .nav-tabs {
  border-bottom: 1px solid rgb(190, 17, 17);
+}
+
+.neffect:hover:after {
+  width: 0% !important;
+  background: none !important;
+  
+
+}
+
+.neffect:hover {
+
+  transition: 0.2s linear !important ;
+
 }
