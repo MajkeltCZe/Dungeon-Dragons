@@ -1,0 +1,258 @@
+
+@font-face {
+    font-family: MedievalSharp;
+    src: url("MedievalSharp-Regular.ttf");
+}
+
+@font-face {
+    font-family: MedievalSharp;
+    src: url("MedievalSharp-Regular.ttf");
+    font-weight: bold;
+  }
+
+body {
+    
+    font-family: MedievalSharp;
+    background-image: url("background.jpg");
+   background-size: 100% auto;
+    
+   background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    
+  }
+
+
+
+  
+
+
+
+
+
+.jumbotron {
+    background-color: rgba(190, 17, 17, 0.6)  !important;
+margin-bottom: 0;
+margin-top: px;
+
+border-bottom: solid rgb(255, 255, 255) 4px;
+
+}
+
+.navbar-dark, .bg-fire {
+
+  
+
+    background-image: url(fire.jpg) !important;
+    background-size: 100% auto;
+    color: white !important;
+    background-size: cover;
+   
+   
+    
+
+
+
+}
+
+.mt4 {
+
+margin-top: 180px;
+
+}
+
+.mt5 {
+
+  margin-top: 80px;
+  
+  
+  }
+
+.mt6 {
+
+margin-top: 280px;
+
+
+}
+
+.text-noir {
+
+color: black;
+
+
+}
+
+
+ 
+.dropdown-item:hover {
+
+    background-color:  rgba(190, 17, 17)  !important;
+    color: rgb(250, 242, 242);
+    
+    } 
+    
+    
+     .navbar-nav .nav-link {
+        color: rgb(224, 221, 221) !important;
+    }
+    
+    
+    
+    .navbar-nav .nav-link:hover {
+       color: rgb(255, 196, 0)!important;
+    
+    }
+
+
+    .navbar .active {
+       
+        color: rgb(255, 196, 0) !important;
+      }
+
+
+    #id {
+
+border: solid  rgba(190, 17, 17) !important;
+
+    }
+  
+    .display5 {
+
+font-size: 30px;
+
+    }
+
+.display6 {
+
+font-size: 20px;
+
+
+}
+  
+
+.shadow2 {
+
+    text-shadow: 3px 2px 2px rgb(255, 0, 0);
+}
+
+
+
+
+
+
+  @media screen and (max-width:1980px) {
+    .menu {
+        display: none !important;
+  
+    }
+    hr {
+      display: none !important;
+  }
+
+  }
+
+hr {
+
+border: solid rgb(190, 17, 17)  2px;
+width: 410px;
+
+}
+
+
+
+
+ 
+  /*  phone */ 
+
+@media screen and (max-width:575px) {
+  .menu {
+      display:inherit !important;
+  }
+
+  hr {
+    display:inherit !important;
+}
+
+.hide {
+
+display: none;
+
+
+}
+
+
+
+}
+
+
+
+
+
+.container2 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.img {
+  width: 100%;
+}
+
+
+.nav-link {
+
+color: rgb(224, 221, 221);
+font-size: 25px;
+}
+
+.nav-link:hover {
+
+  color: rgb(255, 196, 0) !important;
+
+
+}
+
+
+
+.tab-content {
+
+background-color: black !important;
+color: rgb(224, 221, 221) !important;
+font-size: 25px;
+border: solid rgb(190, 17, 17);
+
+
+}
+
+.nav-tabs > li > a.active {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: solid rgb(190, 17, 17) 2px !important;
+  
+
+
+
+
+}
+
+.nav-tabs > li > a:hover {
+  color: rgb(255, 196, 0) !important;
+  border: solid rgb(190, 17, 17) 2px !important;
+  background-color: #000000 !important;
+}
+
+.nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
+   border: solid rgb(190, 17, 17) 2px !important;
+  border-bottom-color: transparent;
+}
+.nav-tabs {
+ border-bottom: 1px solid rgb(190, 17, 17);
+}
