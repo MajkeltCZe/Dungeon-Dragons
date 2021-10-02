@@ -1,0 +1,28 @@
+body {
+    
+    font-family: MedievalSharp;
+    background-image: url("book.jpg");
+   background-size: 100% auto;
+    background-color: black;
+   background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+  }
+
+
+
+
+
+  main {
+
+margin: 30px 45px  !important;
+font-size: 25px;
+color: black;
+
+
+
+
+
+
+  }
