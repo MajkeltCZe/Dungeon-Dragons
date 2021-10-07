@@ -14,15 +14,67 @@ body {
 
 
 
+
+
+
   main {
 
-margin: 30px 45px  !important;
-font-size: 25px;
+margin: 30px  !important;
+font-size: 30px;
 color: black;
 
+  }
 
 
+main > div > div > ul > li {
+margin-left: 100px;
+padding-top: 0.5em;
+font-size: 30px;
+    list-style:none;
+
+  }
+
+  a {
+
+color: black;
+text-decoration: black underline;
+
+
+  }
+
+  a:hover {
+
+    color: rgb(231, 12, 12);
+    
+    
+    
+      }
+
+  #id {
+
+visibility: hidden;
+
+  }
+
+
+    
+  .portrait {
+margin-top: 0px !important;
+    margin-left: 80px;
+height: 800px;
+width: 700px;
 
 
 
   }
+  
+  
+  #img {
+
+        height: 35px;
+width: auto;
+      
+
+
+}
+
