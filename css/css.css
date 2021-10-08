@@ -87,7 +87,7 @@ color: black;
  
 .dropdown-item:hover {
 
-    background-color:  rgba(190, 17, 17)  !important;
+    background-color:  rgb(122, 3, 3)  !important;
     color: rgb(250, 242, 242);
     
     } 
@@ -110,7 +110,7 @@ color: black;
 
     #id {
 
-border: solid  rgba(190, 17, 17) !important;
+border: solid  rgb(122, 3, 3) !important;
 
     }
   
@@ -151,7 +151,7 @@ font-size: 20px;
 
 .hr {
 
-border: solid rgb(190, 17, 17)  2px;
+border: solid rgb(122, 3, 3)  2px;
 width: 410px;
 
 }
@@ -299,7 +299,7 @@ font-size: 25px;
 background-color: rgb(15, 15, 15) !important;
 color: rgb(224, 221, 221) !important;
 font-size: 25px;
-border: solid rgb(190, 17, 17);
+border: solid rgb(122, 3, 3);
 
 
 }
@@ -307,7 +307,7 @@ border: solid rgb(190, 17, 17);
 .nav-tabs > li > a.active {
   background-color: #000000 !important;
   color: #ffffff !important;
-  border: solid rgb(190, 17, 17) 2px !important;
+  border: solid rgb(122, 3, 3) 2px !important;
   
 
 
@@ -317,16 +317,16 @@ border: solid rgb(190, 17, 17);
 
 .nav-tabs > li > a:hover {
   color: rgb(255, 196, 0) !important;
-  border: solid rgb(190, 17, 17) 2px !important;
+  border: solid rgb(122, 3, 3) 2px !important;
   background-color: #000000 !important;
 }
 
 .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
-   border: solid rgb(190, 17, 17) 2px !important;
+   border: solid rgb(122, 3, 3) 2px !important;
   border-bottom-color: transparent;
 }
 .nav-tabs {
- border-bottom: 1px solid rgb(190, 17, 17);
+ border-bottom: 1px solid rgb(122, 3, 3);
 }
 
 .neffect:hover:after {
