@@ -1,15 +1,20 @@
-const hide = document.getElementById("img");
-const hiding = document.getElementById("id");
-hide.addEventListener("mouseenter", function () {
+const dog = document.getElementById('dog'); 
+var turn = false;
 
-  hide.src = "../img/void.png";
-  hiding.style.visibility = "visible" ;
 
-});
 
-hiding.addEventListener("mouseleave", function () {
+dog.addEventListener ('click',  () => {
+   
+   if (turn == false) {
+    dog.src =  "../img/characters/blink-dog.jpeg";
+    turn = true;
+   
+}
+
+   else {
+    dog.src =  "../img/characters/frejda.jpg";
   
-    hide.src = "../img/arrow.png";
-  hiding.style.visibility  = "hidden";
-
+    turn = false;
+   }
 });
+
